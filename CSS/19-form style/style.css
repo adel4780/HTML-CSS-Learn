@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+input[type=text]{
+    background-color: gold;
+    padding: 12px 20px;
+    font-size: 14px;
+    margin: 8px 8px;
+    border: 2px solid red;
+    border-radius: 20px;
+    /* outline: none; */
+    width: 30%;
+    transition: width 400ms ease-in-out;
+}
+input[type=text]:focus{
+    background-color: green;
+    width: 100%;
+}    
+textarea{
+    resize: none;
+}
+select{
+    width: 30%;
+    padding: 16px;
+    border-radius: 5px;
+}
+input[type=button], input[type=submit], input[type=reset]{
+    cursor: pointer;
+    background-color: aquamarine;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 4px 2px;
+    font-size: 16px;
+}

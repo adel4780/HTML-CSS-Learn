@@ -1,0 +1,23 @@
+:root{
+    font-size: 20px;
+}
+
+body{
+    font-size: 20px;
+}
+#d1{
+    /* body:20px -> 20 * 1 = 20px */
+    /* font-size: 1em; */
+    /*1 * 20px = 20px */
+    font-size: 1rem; 
+}
+#d2{    
+    /* body:20px -> 20 * 2 = 40px */
+    /* font-size: 2em; */
+
+    /*2 * 20px = 40px */
+    font-size: 2rem;
+}
+/*
+hello 2em * 2em(d2) * 20px = 80px
+*/

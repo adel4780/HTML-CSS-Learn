@@ -1,0 +1,14 @@
+p::first-line{
+    color: red;
+}
+
+p::before{
+    content: url(image.jpg);
+}
+p::after{
+    content: url(image.jpg);
+}
+::selection{
+    color:white;
+    background-color: red;
+}

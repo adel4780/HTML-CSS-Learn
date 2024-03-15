@@ -1,0 +1,24 @@
+table, th, td{
+    border: 1px solid #444;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    text-align: center;
+    height: 50px;
+    padding: 15px;
+}
+td{
+    text-align: center;
+    height: 40px;
+    vertical-align: bottom;
+    padding: 15px;
+}
+tbody tr:nth-child(even){ /*odd*/
+    background-color: aqua;
+}
+tbody tr:hover{ /*odd*/
+    background-color: red;
+}

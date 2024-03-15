@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+#d1 {
+    color: green;
+    font-size: 40px;
+}
+
+.c1{
+    color: rgb(255, 77, 0);
+    font-size: 40px;
+}
+p.c2{
+    color: rgb(255, 0, 85);
+    font-size: 10px;
+}
+
+.c3{
+    font-size: medium;
+    color: darkgreen;
+}
+
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h3, #c4{
+    color: chartreuse;
+}
+
+div p {
+    color: aqua;
+}
+#d2 p{
+    color: chocolate;
+}

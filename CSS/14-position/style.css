@@ -1,0 +1,13 @@
+#d1{
+    background-color: red;
+    padding: 20px;
+    /*position: fixed;*/
+    bottom: 1px;
+    
+    position: relative;
+    
+}
+span{
+    position: absolute;
+    right: 0px;
+}

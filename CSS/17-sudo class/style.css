@@ -1,0 +1,25 @@
+#d1{
+    background-color: blue;
+}
+.c1{
+    display: none;
+    background-color: orange;
+    padding: 20px;
+}
+#d1:hover .c1{
+    display: block;
+    background-color: red;
+}
+#d2:first-child{ 
+    /*تگی که اولین فرزند است*/
+    background-color: red;
+    color: white;
+}
+#d2:nth-child(3){ 
+    /*تگی که اولین فرزند است*/
+    background-color: red;
+    color: white;
+}
+#myinput:focus{
+    background-color: gold;
+}
